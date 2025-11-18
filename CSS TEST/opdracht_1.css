@@ -1,0 +1,18 @@
+/* Zet het lettertype op Arial, Helvetica, sans-serif
+Zorg dat de H1 headers blauw (blue) worden.
+Geef de H2 headers een blauwe achtergrond- en een witte voorgrondkleur voor de tekst.
+Geeft de tekst in het span element een font-size van 200%. */
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+article h1 {
+    color: rgb(0, 0, 255);
+}
+
+article h2 {
+background-color: blue;
+color : white;
+}

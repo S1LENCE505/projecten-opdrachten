@@ -1,0 +1,28 @@
+/*Zet het lettertype op Arial, Helvetica, sans-serif
+Geef het element met het id: special een gele achtergrond
+Geef het element met een de class: alert een grijze gesloten border van 1 pixel dik.
+Wanneer een element van de class: alert ook een class: stop heeft, maak dan de achtergrond rood
+Wanneer een element van de class: alert ook een class: go heeft, maak dan de achtergrond groen */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 1px solid gray;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
+}
+
+span {
+    font-size: 200%;
+}
